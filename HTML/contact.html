@@ -33,7 +33,7 @@
     <script src="assets/js/modernizr-2.6.2.min.js"></script>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
   </head>
   <body>
     <!-- NAVBAR
@@ -110,7 +110,7 @@
               </button>
 
               <a class="navbar-brand" href="index.html"
-                ><img src="assets/images/sadaka-logo.png" alt=""
+                ><img src="assets/images/logo1.png" alt=""
               /></a>
             </div>
          
@@ -119,9 +119,9 @@
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li class="has-child">
-                  <a href="#">CAUSES</a>
+                  <a href="./information.html">INFORMATION</a>
 
-                  <ul class="submenu">
+                  <!-- <ul class="submenu">
                     <li class="submenu-item">
                       <a href="causes.html">Causes list </a>
                     </li>
@@ -134,10 +134,10 @@
                     <li class="submenu-item">
                       <a href="causes-single.html">Single cause </a>
                     </li>
-                  </ul>
+                  </ul> -->
                 </li>
                 <li><a href="gallery.html">GALLERY</a></li>
-                <li><a class="is-active" href="contact.html">CONTACT</a></li>
+                <li><a class="is-active" href="contact.html">DONATE</a></li>
               </ul>
             </div>
             <!-- /#navbar -->
@@ -165,7 +165,7 @@
             <h2 class="title-style-2">
               DONATION FORM <span class="title-under"></span>
             </h2>
-
+            
             <form method="post" autocomplete="off" name="google-sheet">
               <!-- <div class="row">
                   <div class="col-sm-12 form-group">
@@ -211,7 +211,7 @@
           </form>
           </div>
           <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbyeDCD0kZpx0ZhzV38pu6SdadA-KOIIvMKnLBvKxEpfJ2xOXJY-n3RWuwvCKwTUT--yeg/exec'
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbx2QyLxumhIZEPvH06WGAV_xDXM6lNMjdPhgFsbjL-Itzo9tJb2wDu6jheXkn1BFLUm/exec'
             const form = document.forms['google-sheet']
           
             form.addEventListener('submit', e => {
@@ -236,7 +236,7 @@
                   <span class="contact-icon">
                     <i class="fa fa-map-marker"></i
                   ></span>
-                  <a href="./index.html">Visit us here !</a>
+                  <span>Lal Bhawan,Bhopal,Madhya Pradesh,India,100080</span>
                 </li>
                 <li class="contact-item">
                   <span class="contact-icon"> <i class="fa fa-phone"></i></span>
@@ -278,7 +278,7 @@
                   </p>
 
                   <p>
-                    How to Donate? To know how we work and if you are donating for very first time through our website we suggest you to give it a read. <a href="#">How to Donate?</a>
+                    How to Donate? To know how we work and if you are donating for very first time through our website we suggest you to give it a read. <a href="/contact.html">How to Donate?</a>
                   </p>
                 </div>
               </div>
@@ -311,53 +311,33 @@
             <div class="col-md-4">
               <div class="footer-col">
                 <h4 class="footer-title">
-                  Contact us <span class="title-under"></span>
+                  Our Team<span class="title-under"></span>
                 </h4>
 
-                <div class="footer-content">
-                  <div class="footer-form">
-                    <form action="php/mail.php" class="ajax-form">
-                      <div class="form-group">
-                        <input
-                          type="text"
-                          name="name"
-                          class="form-control"
-                          placeholder="Name"
-                          required
-                        />
+                <div class="footer-content" >
+                  
+                  <div class="footer-form" >
+                    
                       </div>
 
-                      <div class="form-group">
-                        <input
-                          type="email"
-                          name="email"
-                          class="form-control"
-                          placeholder="E-mail"
-                          required
-                        />
+                      <div class="form-group" >
+                        
                       </div>
 
-                      <div class="form-group">
-                        <textarea
-                          name="message"
-                          class="form-control"
-                          placeholder="Message"
-                          required
-                        ></textarea>
-                      </div>
+                      <div class="form-group" >
+                        
+                      </div> 
 
                       <div class="form-group alerts">
-                        <div class="alert alert-success" role="alert"></div>
+                        <div class="alert alert-success" role="alert">Namrutha Hari - namrutha.00@gmail.com</div>
+                        <div class="alert alert-success" role="alert">Kevin Newyen - newyen.kevin@hotmail.com</div>
 
-                        <div class="alert alert-danger" role="alert"></div>
+                        <div class="alert alert-success" role="alert">Pranav Tripathi - pranav.trip@gmail.com</div>
                       </div>
 
                       <div class="form-group">
-                        <button type="submit" class="btn btn-submit pull-right">
-                          Send message
-                        </button>
+                        
                       </div>
-                    </form>
                   </div>
                 </div>
               </div>
@@ -370,10 +350,10 @@
       <div class="footer-bottom">
         <div class="container text-right">
           DonateforCause @ copyrights 2021 | All rights reserved.
-          <!-- <a href="http://www.ouarmedia.com" target="_blank">Ouarmedia</a> -->
+          <!-- <a href="http://www.ouarmedia.com" target="_blank">Ouarmedia</a>
         </div>
       </div>
-    </footer>
+    </footer>-->
 
     <!-- jQuery -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
